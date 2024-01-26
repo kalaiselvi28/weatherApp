@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="DIV1" style=" width:50%;">
+        <div class="upperpart">
+
+            <form id="city-form" style="justify-content:center;">
+                <label for="city">Enter City or ZipCode </label>
+                <input id="city" type="text">
+                <button type="submit" id="submit-btn">Submit</button>
+
+            </form>
+
+        </div>
+
+        <div id="container" class="hidden">
+
+            <div class="column">
+                <div class="card">
+                    <h3 id="headerLocName"></h3>
+                    <p id="curentTemp" style="font-size:30px"></p>
+                    <p id="feelsliike"></p>
+
+                    <p id="tempImg"></p>
+                    <p id="condition"></p>
+                    <p id="windSpd"></p>
+                    <p id="Humidity"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="pagesection2"   class="DIV2 fixed-height" style="width:50%;">
+
+       <h2 id="sec2header" style="text-align: center;"></h2>
+
+        <div id="container2" class="fixed-height " style="width:100%;">
+
+        </div>
+
+        <h2 id="sec3header" style="text-align: center;"></h2>
+
+        <div id="container3" style="width:100%;" class="fixed-height">
+
+        </div>
+
+    </div>
+
+     <!-- <table id="firstTable" class="centre"> 
+
+     </table> 
+
+ <table id="myTable"> </table>  -->
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
